@@ -1,0 +1,163 @@
+2019-06-28 11:44:40,354 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-06-28 11:44:40,410 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-06-28 11:44:42,231 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-06-28 11:44:43,031 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-06-28 11:44:43,198 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-06-28 11:45:02,170 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-06-28 11:46:02,168 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-06-28 11:46:02,419 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-06-28 11:48:39,319 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-07-01 16:16:58,602 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\asyncio\base_events.py", line 584, in run_until_complete
+    return future.result()
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\asyncio\base_events.py", line 1378, in create_server
+    % (sa, err.strerror.lower())) from None
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2019-07-01 16:17:11,887 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\asyncio\base_events.py", line 584, in run_until_complete
+    return future.result()
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\asyncio\base_events.py", line 1378, in create_server
+    % (sa, err.strerror.lower())) from None
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2019-07-01 16:17:29,531 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\asyncio\base_events.py", line 584, in run_until_complete
+    return future.result()
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\asyncio\base_events.py", line 1378, in create_server
+    % (sa, err.strerror.lower())) from None
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2019-07-01 18:44:46,099 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "uvloop/loop.pyx", line 1112, in uvloop.loop.Loop._create_server
+  File "uvloop/handles/streamserver.pyx", line 58, in uvloop.loop.UVStreamServer.listen
+  File "uvloop/handles/streamserver.pyx", line 95, in uvloop.loop.UVStreamServer._fatal_error
+OSError: [Errno 48] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1684, in create_server
+  File "uvloop/loop.pyx", line 1116, in uvloop.loop.Loop._create_server
+OSError: [Errno 48] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+2019-07-01 18:45:06,686 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "uvloop/loop.pyx", line 1112, in uvloop.loop.Loop._create_server
+  File "uvloop/handles/streamserver.pyx", line 58, in uvloop.loop.UVStreamServer.listen
+  File "uvloop/handles/streamserver.pyx", line 95, in uvloop.loop.UVStreamServer._fatal_error
+OSError: [Errno 48] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1684, in create_server
+  File "uvloop/loop.pyx", line 1116, in uvloop.loop.Loop._create_server
+OSError: [Errno 48] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+2019-07-01 18:45:18,991 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "uvloop/loop.pyx", line 1112, in uvloop.loop.Loop._create_server
+  File "uvloop/handles/streamserver.pyx", line 58, in uvloop.loop.UVStreamServer.listen
+  File "uvloop/handles/streamserver.pyx", line 95, in uvloop.loop.UVStreamServer._fatal_error
+OSError: [Errno 48] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1684, in create_server
+  File "uvloop/loop.pyx", line 1116, in uvloop.loop.Loop._create_server
+OSError: [Errno 48] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+2019-07-02 11:58:06,335 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\asyncio\base_events.py", line 582, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
+2019-07-02 12:12:20,892 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\asyncio\base_events.py", line 582, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
+2019-07-02 16:10:25,303 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\asyncio\base_events.py", line 582, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
+2019-07-03 11:59:04,781 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\amit.bharati\appdata\local\continuum\anaconda3\lib\asyncio\base_events.py", line 582, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.

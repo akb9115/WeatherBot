@@ -1,0 +1,55 @@
+%YAML 1.1
+---
+actions:
+  - action_get_output
+  - utter_chinese_cuisine
+  - utter_display
+  - utter_goodbye
+  - utter_greet
+  - utter_indian_cuisine
+  - utter_loca
+  - action_location
+  - utter_temperature
+  - utter_ask_country
+  - action_default_fallback
+  - action_news_report
+  - utter_news
+intents:
+  - food
+  - greet
+  - display
+  - custom
+  - goodbye
+  - location
+  - country
+  - out_of_scope
+  - news
+
+slots:
+  Name:
+    type: text
+    initial_value: "Amit"
+  loc:
+    type: text
+  country_co:
+    type: text
+    
+templates:
+  utter_chinese_cuisine:
+    - text: "300"
+  utter_display:
+    - text: I am a RASA bot
+  utter_goodbye:
+    - text: Goodbye!!!
+  utter_greet:
+    - text: hello {Name}
+  utter_indian_cuisine:
+    - text: "200"
+  utter_loca:
+    - text: Enter your City Name
+  utter_temperature:
+    - text: You asked for temperature in {loc}
+  utter_ask_country:
+    - text: Enter your country code(e.g- code IN,code US,etc)
+  utter_news:
+    - text: Here are the NEWS Headlines for country {country_co}
