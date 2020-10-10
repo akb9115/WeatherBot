@@ -1,2 +1,2 @@
 # WeatherBot
-A weather designed in python RASA.
+A weather bot designed in python RASA.
